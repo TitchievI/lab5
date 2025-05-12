@@ -9,7 +9,7 @@
 name: CI-CD-Pipeline-to-AWS-ElasticBeastalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "mybuchetlab5"
-  EB_APPLICATION_NAME       : "GitHubactionssitetest"
+  EB_APPLICATION_NAME       : "GitHub_actions_site_test"
   EB_ENVIRONMENT_NAME       : "GitHubactionssitetest-env"
   DEPLOY_PACKAGE_NAME       : "sitetest_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-1"
